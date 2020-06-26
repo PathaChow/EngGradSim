@@ -3,7 +3,13 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - UIGPA
+  - UIHEALTH
+  - UIRANGE
+  - fun
+  - work
+  - sleep
   layers:
   - Default
   - TransparentFX

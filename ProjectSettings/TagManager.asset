@@ -10,6 +10,7 @@ TagManager:
   - fun
   - work
   - sleep
+  - event
   layers:
   - Default
   - TransparentFX

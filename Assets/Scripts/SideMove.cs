@@ -1,14 +1,17 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System.Security.Permissions;
 using UnityEngine;
 
 public class SideMove : MonoBehaviour
 {
-    [SerializeField] float speed;
+    public float speed;
 
     // Update is called once per frame
     void FixedUpdate()
     {
+        speed = SpeedManager.speed;
+
         float x = gameObject.transform.position.x;
         float y = gameObject.transform.position.y;
         float z = gameObject.transform.position.z;

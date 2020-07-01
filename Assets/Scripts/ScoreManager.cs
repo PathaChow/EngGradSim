@@ -10,26 +10,40 @@ public class ScoreManager : MonoBehaviour
     [SerializeField] int RANGE;
     [SerializeField] int MaxHealth;
     [SerializeField] int MaxRange;
+    [SerializeField] float TimeToTakeHealth; // health decreases over this interval
+
+    // some game states
+    // should probably be moved to somewhere else
+    bool unhealthy; // player did not collect enough health/mentalhealth daily/weekly
+    bool dead; // true when health is 0
+
+    float healthTimer;
+    float waitTimer;
 
     // Start is called before the first frame update
     void Start()
     {
-        // initialize start of level values
-        HEALTH = MaxHealth;
-        RANGE = 0;
+        // initialize start of level values if any
     }
 
     private void Update()
     {
+        waitTimer += Time.deltaTime;
+
         DisplayScores();
+        CheckDeath();
+
+        if (unhealthy)
+            TakeHealthOverTime(TimeToTakeHealth);
+
     }
 
     // gives scores to UI text objects
     void DisplayScores()
     {
-        // FIXME will have bars instead of number values for health/range
-        GameObject.FindGameObjectWithTag("UIGPA").GetComponent<Text>().text = "GPA " + System.Math.Round(GPA,2);
-        GameObject.FindGameObjectWithTag("UIHEALTH").GetComponent<Text>().text = "HEALTH " + HEALTH; 
+        // will have bars instead of number values for health/range
+        GameObject.FindGameObjectWithTag("UIGPA").GetComponent<Text>().text = "GPA " + System.Math.Round(GPA, 2);
+        GameObject.FindGameObjectWithTag("UIHEALTH").GetComponent<Text>().text = "HEALTH " + HEALTH;
         GameObject.FindGameObjectWithTag("UIRANGE").GetComponent<Text>().text = "RANGE " + RANGE;
     }
 
@@ -38,12 +52,18 @@ public class ScoreManager : MonoBehaviour
     {
         if (HEALTH > 0)
             HEALTH--;
+
+        // change to red
+        GameObject.FindGameObjectWithTag("UIHEALTH").GetComponent<Text>().color = new Color(1, 0, 0);
     }
 
     public void GiveHealth()
     {
         if (HEALTH < MaxHealth)
             HEALTH++;
+
+        // change to green
+        GameObject.FindGameObjectWithTag("UIHEALTH").GetComponent<Text>().color = new Color(0, 1, 0);
     }
 
     public void TakeRange()
@@ -61,7 +81,7 @@ public class ScoreManager : MonoBehaviour
     public void AddToGPA(float points)
     {
         // gpa can't go past 4.0
-        if (GPA - points < 4.00f)
+        if (GPA + points < 4.00f)
             GPA += points;
     }
     public void SubtractGPA(float points)
@@ -69,5 +89,64 @@ public class ScoreManager : MonoBehaviour
         // gpa can't go under 0.0
         if (GPA - points > 0.00f)
             GPA -= points;
+    }
+
+    // these functions probably shouldn't be here
+    public void makeHealthy()
+    {
+        unhealthy = false;
+    }
+
+    public void makeUnhealthy()
+    {
+        unhealthy = true;
+    }
+
+
+    // checks if player health is 0, and end level if dead
+    void CheckDeath()
+    {
+        if (HEALTH <= 0)
+        {
+            dead = true;
+            // on death change scene
+            gameObject.GetComponent<LevelManager>().ChangeScene("LevelComplete");
+        }
+    }
+
+    void TakeHealthOverTime(float duration)
+    {
+        // take health every second
+        healthTimer += Time.deltaTime;
+        if (healthTimer > duration)
+        {
+            healthTimer = 0.0f;
+            TakeHealth();
+        }
+    }
+
+    // on scene change save current score in PlayerPrefs
+    void OnDisable()
+    {
+        if (!dead)
+            PlayerPrefs.SetInt("EndState", 1); // 1 is level complete
+        else
+            PlayerPrefs.SetInt("EndState", 0); // 0 is levelfailed
+
+        PlayerPrefs.SetFloat("GPA", GPA);
+    }
+
+    // getters
+    public int GetHealth()
+    {
+        return HEALTH;
+    }
+    public int GetRange()
+    {
+        return RANGE;
+    }
+    public float GetGPA()
+    {
+        return GPA;
     }
 }

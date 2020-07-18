@@ -6,6 +6,7 @@ using UnityEngine;
 public class SideMove : MonoBehaviour
 {
     public float speed;
+    public bool dontDestroy;
 
     // Update is called once per frame
     void FixedUpdate()
@@ -16,5 +17,10 @@ public class SideMove : MonoBehaviour
         float y = gameObject.transform.position.y;
         float z = gameObject.transform.position.z;
         gameObject.transform.position = new Vector3(x + speed * Time.deltaTime, y, z);
+
+        if(x < -12f && !dontDestroy)
+        {
+            Destroy(gameObject);
+        }
     }
 }

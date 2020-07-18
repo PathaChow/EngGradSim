@@ -1,0 +1,143 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5514197076765696941
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5514197076765696940}
+  - component: {fileID: 5514197076765696939}
+  - component: {fileID: 2045967199}
+  - component: {fileID: 2045967201}
+  - component: {fileID: 2045967203}
+  - component: {fileID: 1958685974}
+  - component: {fileID: 1958685979}
+  - component: {fileID: 1958685980}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5514197076765696940
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5514197076765696941}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -18.650234, y: 2.04, z: -6.372665}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5514197076765696939
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5514197076765696941}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de117ab5172daad45bd014aedf469d02, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  work: {fileID: 6666987575934856071, guid: 0cd6338a5fc24654e963b7df38ef9711, type: 3}
+  fun: {fileID: 1170728249865220573, guid: 8e4942e3d8489734983126900e014054, type: 3}
+  sleep: {fileID: 973525506018600982, guid: 0a6451d99c217fa488c1ee57e8fad0bc, type: 3}
+  mentalhealth: {fileID: 6805150919601388438, guid: c7b018c4becea44c0af6a3941df81817,
+    type: 3}
+  eventSprite: {fileID: 4150410134563665722, guid: 4445e354ea98c144cb7be51c369ed081,
+    type: 3}
+  Midterm: {fileID: 0}
+  MidtermArea: {fileID: 0}
+--- !u!114 &2045967199
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5514197076765696941}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb1006bea69f24f0fbf649eff89e5b79, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  NewLevelName: LevelComplete
+  WaitTime: 40
+  isNotTimed: 1
+--- !u!114 &2045967201
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5514197076765696941}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d6f3155b3426b4ca3a0d6a20dbebc1d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  GPA: 4
+  HEALTH: 10
+  MHEALTH: 10
+  RANGE: 0
+  MaxHealth: 10
+  MaxRange: 10
+  TimeToTakeHealth: 2
+--- !u!114 &2045967203
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5514197076765696941}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27ebc195ddc286740961a00ffc8f73e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1958685974
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5514197076765696941}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 168768fa640956847b086d2b47a0e113, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1958685979
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5514197076765696941}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed79e7687201548068eeb917a5f94109, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  DayDuration: 8
+--- !u!114 &1958685980
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5514197076765696941}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d71529f026ac54136b22c172400a7e77, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

@@ -12,14 +12,14 @@ public class InteractiveAnimSelect : MonoBehaviour
         animator = gameObject.GetComponent<Animator>();
 
         characterNum = PlayerPrefs.GetInt("Character");
-        animator.runtimeAnimatorController = Resources.Load<RuntimeAnimatorController>("PAnim" + characterNum);
+        animator.runtimeAnimatorController = Resources.Load<RuntimeAnimatorController>("PlayerACs/PAnim" + characterNum);
 
     }
 
     private void Update()
     {
         characterNum = PlayerPrefs.GetInt("Character");
-        animator.runtimeAnimatorController = Resources.Load<RuntimeAnimatorController>("PAnim" + characterNum);
+        animator.runtimeAnimatorController = Resources.Load<RuntimeAnimatorController>("PlayerACs/PAnim" + characterNum);
 
     }
 }

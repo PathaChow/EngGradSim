@@ -497,7 +497,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -4, y: -129}
+  m_AnchoredPosition: {x: -4, y: -202}
   m_SizeDelta: {x: 174.63623, y: 83.66621}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2112832045
@@ -561,7 +561,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2112832043}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
@@ -626,8 +626,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -5, y: 108}
-  m_SizeDelta: {x: 227.67719, y: 154.72165}
+  m_AnchoredPosition: {x: 2.3, y: 108}
+  m_SizeDelta: {x: 368.20633, y: 154.72165}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2134601144
 MonoBehaviour:
@@ -659,12 +659,9 @@ MonoBehaviour:
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
+    m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: 'Level Complete!
-
-
-    GPA: '
+  m_Text: Level Complete!
 --- !u!222 &2134601145
 CanvasRenderer:
   m_ObjectHideFlags: 0

@@ -1,0 +1,683 @@
+fileFormatVersion: 2
+guid: 943dce29b8ab813418daf5f000989436
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3043030718946932673
+    second: Icons_7162020_devhandoff_0
+  - first:
+      213: 6450133799796254061
+    second: Icons_7162020_devhandoff_1
+  - first:
+      213: 8587878621417333886
+    second: Icons_7162020_devhandoff_2
+  - first:
+      213: 6399623019008750373
+    second: Icons_7162020_devhandoff_3
+  - first:
+      213: -56635231131536734
+    second: Icons_7162020_devhandoff_4
+  - first:
+      213: -6010820717705190201
+    second: Icons_7162020_devhandoff_5
+  - first:
+      213: 3264618486469351625
+    second: Icons_7162020_devhandoff_6
+  - first:
+      213: -4350681503518702189
+    second: Icons_7162020_devhandoff_7
+  - first:
+      213: 5701116463355200628
+    second: Icons_7162020_devhandoff_8
+  - first:
+      213: -4075882060565917208
+    second: Icons_7162020_devhandoff_9
+  - first:
+      213: -5595111418203719327
+    second: Icons_7162020_devhandoff_10
+  - first:
+      213: -1836087789526414262
+    second: Icons_7162020_devhandoff_11
+  - first:
+      213: -6947747113912585542
+    second: Icons_7162020_devhandoff_12
+  - first:
+      213: 1956816130041565368
+    second: Icons_7162020_devhandoff_13
+  - first:
+      213: 8160996986500595378
+    second: Icons_7162020_devhandoff_14
+  - first:
+      213: -7703030965237356139
+    second: Icons_7162020_devhandoff_15
+  - first:
+      213: 8931524232245325981
+    second: Icons_7162020_devhandoff_16
+  - first:
+      213: -5714950644651886309
+    second: Icons_7162020_devhandoff_17
+  - first:
+      213: -2073240658020921435
+    second: Icons_7162020_devhandoff_18
+  - first:
+      213: 4499422436344631565
+    second: Icons_7162020_devhandoff_19
+  - first:
+      213: -2074368787279506086
+    second: Icons_7162020_devhandoff_20
+  - first:
+      213: 2859168838678719624
+    second: Icons_7162020_devhandoff_21
+  - first:
+      213: 4921485503135144979
+    second: Icons_7162020_devhandoff_22
+  - first:
+      213: 5034394840482247288
+    second: Icons_7162020_devhandoff_23
+  - first:
+      213: 4604168472290897577
+    second: Icons_7162020_devhandoff_24
+  - first:
+      213: -8030234387659133362
+    second: Icons_7162020_devhandoff_25
+  - first:
+      213: -8381058769979197757
+    second: Icons_7162020_devhandoff_26
+  - first:
+      213: -7733951730048493329
+    second: Icons_7162020_devhandoff_27
+  - first:
+      213: -4883528374116701993
+    second: Icons_7162020_devhandoff_28
+  - first:
+      213: -123656614145372445
+    second: Icons_7162020_devhandoff_29
+  - first:
+      213: -783636001091743439
+    second: Icons_7162020_devhandoff_30
+  - first:
+      213: 512387336508185693
+    second: Icons_7162020_devhandoff_31
+  - first:
+      213: 699964032468978097
+    second: Icons_7162020_devhandoff_32
+  - first:
+      213: -5368391054902504807
+    second: Icons_7162020_devhandoff_33
+  - first:
+      213: -3008639419766870856
+    second: Icons_7162020_devhandoff_34
+  - first:
+      213: -8320970001052722981
+    second: Icons_7162020_devhandoff_35
+  - first:
+      213: -4991239680749686068
+    second: Icons_7162020_devhandoff_36
+  - first:
+      213: 8933521591957923984
+    second: Icons_7162020_devhandoff_37
+  - first:
+      213: -541883416443733767
+    second: Icons_7162020_devhandoff_38
+  - first:
+      213: 1254884483560001551
+    second: Icons_7162020_devhandoff_39
+  - first:
+      213: -7411570045831990794
+    second: Icons_7162020_devhandoff_40
+  - first:
+      213: 3990467542143941499
+    second: Icons_7162020_devhandoff_41
+  - first:
+      213: -3849410859552123290
+    second: Icons_7162020_devhandoff_42
+  - first:
+      213: 3429510595534963877
+    second: Icons_7162020_devhandoff_43
+  - first:
+      213: 6133630046515496849
+    second: Icons_7162020_devhandoff_44
+  - first:
+      213: -4302825185904262422
+    second: Icons_7162020_devhandoff_45
+  - first:
+      213: -3699746305655550995
+    second: Icons_7162020_devhandoff_46
+  - first:
+      213: 6721845355939964318
+    second: Icons_7162020_devhandoff_47
+  - first:
+      213: 4118846705089641163
+    second: Icons_7162020_devhandoff_48
+  - first:
+      213: -8156046468708867794
+    second: Icons_7162020_devhandoff_49
+  - first:
+      213: -5722639491248036865
+    second: Icons_7162020_devhandoff_50
+  - first:
+      213: -7444861239190982131
+    second: Icons_7162020_devhandoff_51
+  - first:
+      213: 8236061813947342982
+    second: Icons_7162020_devhandoff_52
+  - first:
+      213: 5179288506384854409
+    second: Icons_7162020_devhandoff_53
+  - first:
+      213: 6683051891592263345
+    second: Icons_7162020_devhandoff_54
+  - first:
+      213: 2757439519773390268
+    second: Icons_7162020_devhandoff_55
+  - first:
+      213: 1757044070143309377
+    second: Icons_7162020_devhandoff_56
+  - first:
+      213: 467060477414782828
+    second: Icons_7162020_devhandoff_57
+  - first:
+      213: 190624911764108905
+    second: Icons_7162020_devhandoff_58
+  - first:
+      213: 4506025308838642102
+    second: Icons_7162020_devhandoff_59
+  - first:
+      213: -985710195672961145
+    second: Icons_7162020_devhandoff_60
+  - first:
+      213: 6246372964217339568
+    second: Icons_7162020_devhandoff_61
+  - first:
+      213: 7325641154050207131
+    second: Icons_7162020_devhandoff_62
+  - first:
+      213: -444044629381547298
+    second: Icons_7162020_devhandoff_63
+  - first:
+      213: -7609055864451481969
+    second: Icons_7162020_devhandoff_64
+  - first:
+      213: 3267671313225950066
+    second: Icons_7162020_devhandoff_65
+  - first:
+      213: -1234076562624573920
+    second: Icons_7162020_devhandoff_66
+  - first:
+      213: -1017306609699804875
+    second: Icons_7162020_devhandoff_67
+  - first:
+      213: -1136223745910845619
+    second: Icons_7162020_devhandoff_68
+  - first:
+      213: -7759210750151287634
+    second: Icons_7162020_devhandoff_69
+  - first:
+      213: 5553680357520070949
+    second: Icons_7162020_devhandoff_70
+  - first:
+      213: -7644569522450244514
+    second: Icons_7162020_devhandoff_71
+  - first:
+      213: -1503751469585232572
+    second: Icons_7162020_devhandoff_72
+  - first:
+      213: -7363906819764756137
+    second: Icons_7162020_devhandoff_73
+  - first:
+      213: 7271012260837208995
+    second: Icons_7162020_devhandoff_74
+  - first:
+      213: -2435121270386797276
+    second: Icons_7162020_devhandoff_75
+  - first:
+      213: 3089471034287483773
+    second: Icons_7162020_devhandoff_76
+  - first:
+      213: 4841857464784898410
+    second: Icons_7162020_devhandoff_77
+  - first:
+      213: 4593143077729890839
+    second: Icons_7162020_devhandoff_78
+  - first:
+      213: 3878493407801483378
+    second: Icons_7162020_devhandoff_79
+  - first:
+      213: -5669716367362140109
+    second: Icons_7162020_devhandoff_80
+  - first:
+      213: 1818713631209810465
+    second: Icons_7162020_devhandoff_81
+  - first:
+      213: -1037140062115163774
+    second: Icons_7162020_devhandoff_82
+  - first:
+      213: -4764761879114792469
+    second: Icons_7162020_devhandoff_83
+  - first:
+      213: -222854822322377005
+    second: Icons_7162020_devhandoff_84
+  - first:
+      213: -3279456900707924493
+    second: Icons_7162020_devhandoff_85
+  - first:
+      213: -1831212200846043722
+    second: Icons_7162020_devhandoff_86
+  - first:
+      213: 1139930101184845264
+    second: Icons_7162020_devhandoff_87
+  - first:
+      213: 8020801191283188636
+    second: Icons_7162020_devhandoff_88
+  - first:
+      213: -7506462086160430100
+    second: Icons_7162020_devhandoff_89
+  - first:
+      213: -8526522220346471890
+    second: Icons_7162020_devhandoff_90
+  - first:
+      213: 6685218387534651640
+    second: Icons_7162020_devhandoff_91
+  - first:
+      213: 2549228109320518251
+    second: Icons_7162020_devhandoff_92
+  - first:
+      213: 1744636853763207250
+    second: Icons_7162020_devhandoff_93
+  - first:
+      213: 8575481898514635260
+    second: Icons_7162020_devhandoff_1
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 512
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Icons_7162020_devhandoff_0
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 2695
+        width: 363
+        height: 361
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f38019c0fabf4c5d0800000000000000
+      internalID: -3043030718946932673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icons_7162020_devhandoff_5
+      rect:
+        serializedVersion: 2
+        x: 1326
+        y: 2667
+        width: 363
+        height: 363
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c4af986766459ca0800000000000000
+      internalID: -6010820717705190201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icons_7162020_devhandoff_11
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 2261
+        width: 363
+        height: 363
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4c88d822e7e486e0800000000000000
+      internalID: -1836087789526414262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icons_7162020_devhandoff_22
+      rect:
+        serializedVersion: 2
+        x: 1326
+        y: 2239
+        width: 363
+        height: 363
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31cda9d6df0ac4440800000000000000
+      internalID: 4921485503135144979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icons_7162020_devhandoff_25
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 1830
+        width: 363
+        height: 363
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4e6374de50ee8090800000000000000
+      internalID: -8030234387659133362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icons_7162020_devhandoff_36
+      rect:
+        serializedVersion: 2
+        x: 1326
+        y: 1811
+        width: 363
+        height: 363
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc2b41084fd8bbab0800000000000000
+      internalID: -4991239680749686068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icons_7162020_devhandoff_43
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 1398
+        width: 363
+        height: 361
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a4cc4067b1189f20800000000000000
+      internalID: 3429510595534963877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icons_7162020_devhandoff_47
+      rect:
+        serializedVersion: 2
+        x: 1326
+        y: 1383
+        width: 363
+        height: 363
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9529e3ccbac84d50800000000000000
+      internalID: 6721845355939964318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icons_7162020_devhandoff_56
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 964
+        width: 363
+        height: 363
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1463997c546426810800000000000000
+      internalID: 1757044070143309377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icons_7162020_devhandoff_62
+      rect:
+        serializedVersion: 2
+        x: 1326
+        y: 955
+        width: 363
+        height: 363
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9d252311d7e9a560800000000000000
+      internalID: 7325641154050207131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icons_7162020_devhandoff_70
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 533
+        width: 363
+        height: 363
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5295c0a4cd2a21d40800000000000000
+      internalID: 5553680357520070949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icons_7162020_devhandoff_77
+      rect:
+        serializedVersion: 2
+        x: 1326
+        y: 528
+        width: 363
+        height: 363
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a69c39106bbb13340800000000000000
+      internalID: 4841857464784898410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icons_7162020_devhandoff_79
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 101
+        width: 363
+        height: 361
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 270a3bb843d23d530800000000000000
+      internalID: 3878493407801483378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icons_7162020_devhandoff_86
+      rect:
+        serializedVersion: 2
+        x: 1326
+        y: 101
+        width: 363
+        height: 361
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b5d53c943a3696e0800000000000000
+      internalID: -1831212200846043722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
